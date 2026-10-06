@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GUIBES · Projetista mecânico | Modelagem 3D em SolidWorks</title>
+  <meta name="description" content="Projetista mecânico e engenheiro mecânico em Curitiba (PR): modelagem 3D em SolidWorks, desenho técnico 2D, montagens, estruturas metálicas e engenharia reversa para fabricação.">
+  <meta name="keywords" content="projetista mecânico, mechanical designer, engenheiro mecânico, mechanical engineer, SolidWorks, modelagem 3D, 3D modeling, CAD, desenho técnico, technical drawing, montagens, assemblies, engenharia reversa, reverse engineering, estruturas metálicas, projeto de máquinas, projetista mecânico Curitiba, mechanical designer Brazil, portfólio, Lucas Guibes, Guibes">
+  <meta name="author" content="Lucas Guibes">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff">
+  <!-- tema antes do CSS, para não piscar: escolha salva no botão do topo ou, sem ela, o tema do sistema -->
+  <script>
+    var tema; try { tema = localStorage.getItem("tema"); } catch (e) {}
+    document.documentElement.dataset.tema = tema || (matchMedia("(prefers-color-scheme: dark)").matches ? "escuro" : "claro");
+  </script>
+
+  <!-- Compartilhamento (LinkedIn, WhatsApp, redes sociais).
+       SITE_URL: ao publicar, descomente as linhas abaixo trocando pelo endereço real do site
+       e por uma imagem de capa (1200×630 px, endereço completo). -->
+  <!-- <link rel="canonical" href="https://SITE_URL/"> -->
+  <!-- <meta property="og:url" content="https://SITE_URL/"> -->
+  <!-- <meta property="og:image" content="https://SITE_URL/capa-compartilhar.jpg"> -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GUIBES">
+  <meta property="og:title" content="GUIBES · Projetista mecânico">
+  <meta property="og:description" content="Modelagem 3D em SolidWorks, desenho técnico, montagens e engenharia reversa para fabricação.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GUIBES · Projetista mecânico">
+  <meta name="twitter:description" content="Modelagem 3D em SolidWorks, desenho técnico, montagens e engenharia reversa para fabricação.">
+
+  <!-- Dados estruturados (schema.org) para buscadores -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "#pessoa",
+        "name": "Lucas Guibes",
+        "alternateName": "GUIBES",
+        "jobTitle": ["Projetista mecânico", "Mechanical designer", "Engenheiro mecânico"],
+        "description": "Projetista mecânico e engenheiro mecânico em Curitiba (PR), com formação técnica em informática e 10 anos de experiência em marketing e design.",
+        "image": "foto-perfil.jpeg",
+        "email": "mailto:xxx@hotmail.com",
+        "sameAs": ["https://www.linkedin.com/in/"],
+        "address": { "@type": "PostalAddress", "addressLocality": "Curitiba", "addressRegion": "PR", "addressCountry": "BR" },
+        "knowsAbout": ["SolidWorks", "Modelagem 3D", "Desenho técnico", "Montagens mecânicas", "Engenharia reversa", "Estruturas metálicas", "Acompanhamento de fabricação", "Inspeção técnica", "SketchUp", "Renderização", "Comunicação visual"],
+        "knowsLanguage": ["pt-BR", "en", "es", "fr"]
+      },
+      {
+        "@type": "WebSite",
+        "name": "GUIBES · Projetista mecânico",
+        "inLanguage": ["pt-BR", "en"],
+        "author": { "@id": "#pessoa" }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2309090b'/%3E%3Ctext x='16' y='22.5' text-anchor='middle' font-family='Futura,Jost,Arial,sans-serif' font-weight='700' font-size='19' fill='white'%3EG%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#conteudo" data-i18n="pular">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="topo__in">
+      <a class="marca" href="#/">
+        <span class="marca__nome" id="marca-nome">GUIBES</span>
+        <span class="marca__sub" id="marca-sub">Projetista mecânico</span>
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <a href="#/" data-rota="inicio" data-i18n="nav_inicio">Início</a>
+        <a href="#/projetos" data-rota="projetos" data-i18n="nav_projetos">Projetos</a>
+        <a href="#/sobre" data-rota="sobre" data-i18n="nav_sobre">Sobre</a>
+        <a href="#/contato" data-rota="contato" data-i18n="nav_contato">Contato</a>
+      </nav>
+      <div class="topo__acoes">
+        <button class="tema-btn" id="btn-tema" type="button"></button>
+        <button class="idioma" id="btn-idioma" type="button"></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <noscript>
+      <div class="cont noscript">
+        <h1>GUIBES · Projetista mecânico</h1>
+        <p>Modelagem 3D em SolidWorks, desenho técnico 2D, montagens, estruturas metálicas e engenharia reversa para fabricação. Ative o JavaScript para ver os projetos.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape__in">
+      <span id="rodape-nome"></span>
+      <span class="rodape__sep" aria-hidden="true">·</span>
+      <span data-i18n="rodape_feito">Projetos desenvolvidos em SolidWorks</span>
+      <a class="rodape__link" id="rodape-linkedin" href="https://www.linkedin.com/in/lucas-guibes" target="_blank" rel="noopener me">LinkedIn ↗</a>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox__fechar" type="button" data-acao="fechar" data-i18n-aria="fechar" aria-label="Fechar">×</button>
+    <button class="lightbox__nav lightbox__nav--ant" type="button" data-acao="ant" data-i18n-aria="img_anterior" aria-label="Imagem anterior">‹</button>
+    <figure><img alt=""><figcaption></figcaption></figure>
+    <button class="lightbox__nav lightbox__nav--prox" type="button" data-acao="prox" data-i18n-aria="img_proxima" aria-label="Próxima imagem">›</button>
+  </dialog>
+
+  <script src="config.js"></script>
+  <script src="projetos.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
